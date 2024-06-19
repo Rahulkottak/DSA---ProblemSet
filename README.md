@@ -18,6 +18,21 @@ Example- <br/>
  Output - 3 <br/>
 [Exaplanation - if Alex has a string "abacaba", you can get the following different strings: "acaba" (by deleting the first two or second and third characters), "ababa" (by deleting the third and fourth characters or fourth and fifth characters), "abaca" (by deleting the sixth and fifth characters or sixth and seventh characaters), So, there are 3 unique outcomes after deletion.] 
 
+<br/>
+Critical Cases
+<br/>
+
+3. Input- n=69, s="ojvqyaimlvkceujbwgjwhzjkelelytpntcafernwtdtnlqzpsccswbumdclhpffivfloz"<br/>
+ Output - 65 
+<br/>
+
+4. Input- n=39, s="fzeamgptytxrfmpgkdwbkwnpmxxgkpavontstaf"<br/>
+ Output - 36 
+<br/>
+
+5. Input- n=231, s="mhneqtevyqomtdofczbsjpmyrjpumnfdpqlufbtnvynangxjownjzwsbgisjuiberkmqpamfgujtolkslgikcvaczdhvxssmlhirpvdrxeekjpomtalalstfcdsvuvjuvkntflrhmfnbkxnruqicdanmntnquofwdsjmysrgsgbxilpvkzqkanxslxkihnzicfytelrhdxiaebradpfeyptqpbezxfctvtmtbax"<br/>
+ Output - 221 
+<br/>
 
 ```bash
 #include <bits/stdc++.h>
